@@ -66,20 +66,25 @@ header nav ul li a:hover {
     text-shadow: 5px var(--alpha);
 }
 
+/* END NAV */
+
+
+/* HERO START */
+
 .hero {
-text-align: center;
+    text-align: center;
 }
 
 .hero-welcome h2 {
-font-size: 50px;
-font-weight: bold;
-color: var(--beta);
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--beta);
 }
 
 .section-title {
     color: var(--alpha);
     margin-bottom: 35px;
-    padding: 0 400px 20px 400px;
+    padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 1px solid;
 }
@@ -87,5 +92,20 @@ color: var(--beta);
 .primary-border {
     border-color: var(--kappa);
 }
+
+.hero p {
+    color: var(--zeta);
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* END HERO AND HEADER */
+
+
+/* ABOUT ME START */
+
+
 
 /* third section - portfolio */

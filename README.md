@@ -8,7 +8,10 @@ Portfolio for potential employers.
 * CSS
 
 ## Website
-<a href="https://aishels.github.io/potential-enigma/">Click here for the enigma.</a>
+<a href="https://aishels.github.io/potential-enigma/"><img src="https://i.imgur.com/WrUAYIJ.jpg"></a>
+<br>
+<br>
+* Click image to go to website.
 
 ## Contribution
 Made with ♥ by Ashley Waters

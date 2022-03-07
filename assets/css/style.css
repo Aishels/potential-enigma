@@ -57,7 +57,8 @@ header nav ul li {
 
 header nav ul li a {
     color: var(--alpha);
-    margin: 0 60px;
+    /* margin: 0 60px; */
+    margin: 10px 45px;
     font-size: 18px;
 }
 
@@ -87,6 +88,7 @@ header nav ul li a:hover {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 1px solid;
+    font-size: 48px;
 }
 
 .primary-border {
@@ -298,10 +300,6 @@ li {
     color: var(--delta);
 }
 
-.contact-info {
-
-}
-
 .contact-info img {
     display: block;
     margin-left: auto;
@@ -312,12 +310,99 @@ li {
     display: flex;
   }
   
-  .contact-column {
+.contact-column {
     flex: 34%;
     padding: 150px;
   }
 
 /* media queries here */
+
+@media screen and (max-width: 900px;) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .about-me {
+        flex: 0 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .contact-row img {
+        flex: 0 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width 575px;) {
+    .section-title {
+        width: 95%;
+    }
+
+    .about-me {
+        flex: 0 50%;
+        float: left;
+    }
+
+    .contact-row {
+        display: flex;
+      }
+      
+    .contact-column {
+        flex-wrap: wrap;
+        padding: 100px;
+      }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+}
+
+
 
 @media (min-width:992px) {
 	.container {
